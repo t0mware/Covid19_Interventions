@@ -68,7 +68,7 @@ dI1 = b*S1*(I1+I2)/para.N - (para.gamma+para.delta)*I1;
 dI2 = b*S2*(I1+I2)/para.N - (para.gamma + para.mu*para.delta)*I2;
 dR = para.gamma*(I1+I2) - para.kappa*R - v3;
 dD = para.delta*(I1+para.mu*I2);
-dV = v1 + v2 + v3 - para.kappa*V; 
+dV = v1 + v2 + v3; 
 dCV = v1 + v2 + v3;
 %Define differential equation to be able to store b
 dl = b;
